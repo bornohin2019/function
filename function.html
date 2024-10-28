@@ -3,27 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>function</title>
+    <title>event</title>
 </head>
 <body>
-    <script> 
-            function input(a,b,c){
-                document.write(`${a+b+c}</br>`);
-            }
+    <button onclick="bornohin()"> click here</button>
+     <script>
+                function bornohin(){
+                    document.write("no one")
+                }
+     </script>
 
-            input(5,3,2);
-            input(39,20,19);
-
-            // anonimus function
-             let num = function(){
-                return 5+8;
-             }
-             console.log(num);
-
-            //  arrow function
-             let num_2 = () =>{
-                console.log(6+3);
-             }
-    </script>
 </body>
 </html>
