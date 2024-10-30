@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factrorial</title>
+</head>
+<body>
+    <script> 
+        let n= parseInt(prompt('enter value'));
+        let result =1;
+        if(n<0){
+            document.write('not define negative number');
+        }
+        else{
+            for(let i=2; i<=n; i++){
+                result= result*i;
+            }
+            document.write(result);
+        }
+    </script>
+</body>
+</html>

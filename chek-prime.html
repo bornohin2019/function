@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime</title>
+</head>
+<body>
+    <script>
+        // var result=isPrime(prompt("Enter a Value"));
+        // for(let i=2; i<result; i++){
+        //         if(result%i==0){
+        //             document.write('Not a prime Number');
+        //         }
+        //         else{
+        //             document.write("is Prime")
+        //         }
+        //     }
+        const number =(prompt("input value"));
+        let isPrime = true;
+        if(number === 1){
+    document.write("I")
+    }
+    else if(number > 1){
+    for(let i = 2; i < number; i++){
+        if(number % i == 0){
+            isPrime = false;
+            break;
+        }
+    }
+    if(isPrime == true){
+        document.write("PN")
+    }
+    else{
+        document.write("NPN")
+    }
+    }
+    </script>
+</body>
+</html>
